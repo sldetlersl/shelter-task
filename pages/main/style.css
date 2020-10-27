@@ -1,0 +1,93 @@
+        *,
+        h1,
+        h2,
+        h3,
+        li,
+        input,
+        form,
+        a {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        
+        .container {
+            width: 1200px;
+        }
+        
+        .wrapper__header-main {
+            display: flex;
+            justify-content: center;
+            max-width: 1280px;
+            max-height: 908px;
+            background-image: url(../../assets/image/header-main-gradient-background.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        
+        .shelter__header {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .shelter__header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            ;
+            padding: 60px 0 0 0px;
+        }
+        
+        .shelter__header-content-title {
+            font-family: Georgia;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 35px;
+            letter-spacing: 0.06em;
+            color: #F1CDB3;
+            padding-bottom: 10px;
+        }
+        
+        .shelter__header-content-subtitle {
+            font-family: Arial;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+        }
+        
+        .shelter__header-navbar {
+            margin: 76px 0 0 573px;
+        }
+        
+        .shelter__header-navbar-items {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .shelter__header-navbar-item-1,
+        .shelter__header-navbar-item-2,
+        .shelter__header-navbar-item-3 {
+            padding-right: 35px;
+        }
+        
+        .shelter__header-navbar-item-link {
+            font-family: Arial;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            color: #CDCDCD;
+        }
+        
+        .shelter__main {
+            display: flex;
+        }
+        
+        .wrapper__shelter__main {
+            display: flex;
+        }
