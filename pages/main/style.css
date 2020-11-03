@@ -397,3 +397,84 @@
         color: #545454;
     }
     /* END HELP SECTION */
+    /* START DONATION SECTION */
+    
+    .donation {
+        background: #F6F6F6;
+    }
+    
+    .wrap__donation {
+        display: flex;
+        justify-content: start;
+        /* padding: 82px 0 111px 142px; */
+    }
+    
+    .donation__image {
+        padding: 90px 0 111px 150px;
+    }
+    
+    .donation__content {
+        padding: 82px 0 0 28px;
+    }
+    
+    .donation__content-title {
+        width: 300px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    
+    .donation__content-subtitle {
+        padding: 20px 0;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    
+    .donation__content-bank-account {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 349px;
+        height: 43px;
+        background: #F1CDB3;
+        border-radius: 9px;
+    }
+    
+    .donation__content-bank-account-link {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    
+    .donation__content-bank-account-link:hover {
+        transform: scale(1.1);
+    }
+    
+    .donation__content-bank-account-image:hover {
+        transform: scale(1.1);
+    }
+    
+    .donation__content-discription {
+        padding-top: 20px;
+        width: 380px;
+        font-family: Arial;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #B2B2B2;
+    }
+    /* END DONATION  SECTION */
