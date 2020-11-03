@@ -314,3 +314,86 @@
         background: #FAFAFA;
     }
     /* END PETS SECTION */
+    /* START HELP SECTION */
+    
+    .wrap__help {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .help__title {
+        padding: 80px 0 60px 0;
+        width: 408px;
+        height: 90px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    
+    .help__options {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        max-width: 1030px;
+        height: 281px;
+        margin-bottom: 100px;
+    }
+    
+    .help__options-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .help__options-item:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    
+    .help__options-item:nth-child(1),
+    .help__options-item:nth-child(2),
+    .help__options-item:nth-child(3) {
+        padding-right: 120px;
+    }
+    
+    .help__options-item:nth-child(5) {
+        padding-left: 117px;
+    }
+    
+    .help__options-item:nth-child(6) {
+        padding: 55px 120px 0 82px;
+    }
+    
+    .help__options-item:nth-child(7) {
+        padding: 52px 120px 0 0;
+    }
+    
+    .help__options-item:nth-child(8) {
+        padding: 55px 120px 0 0;
+    }
+    
+    .help__options-item:nth-child(9) {
+        padding-top: 50px;
+    }
+    
+    .help__options-item-image {
+        padding-bottom: 30px;
+    }
+    
+    .help__options-item-discription {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 115%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    /* END HELP SECTION */
