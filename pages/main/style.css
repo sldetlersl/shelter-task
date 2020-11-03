@@ -60,7 +60,8 @@
         justify-content: center;
     }
     
-    .wrap__header-main {
+    .wrap__header-main,
+    .footer {
         background-image: url(../../assets/image/header-main-gradient-background.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -410,7 +411,7 @@
     }
     
     .donation__image {
-        padding: 90px 0 111px 150px;
+        padding: 90px 0 113px 150px;
     }
     
     .donation__content {
@@ -478,3 +479,85 @@
         color: #B2B2B2;
     }
     /* END DONATION  SECTION */
+    /* START FOOTER  SECTION */
+    
+    .wrap__footer {
+        display: flex;
+    }
+    
+    .footer__contact-content {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 234px;
+        padding: 57px 138px 60px 6px;
+    }
+    
+    .footer__contact-content-title,
+    .footer__location-content-title {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        padding-bottom: 43px;
+    }
+    
+    .footer__location-content {
+        display: flex;
+        flex-direction: column;
+        width: 302px;
+        height: 234px;
+        padding: 57px 160px 60px 0;
+    }
+    
+    .footer__contact-content-email,
+    .footer__contact-content-phone {
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 40px;
+    }
+    
+    .footer__contact-content-email-link,
+    .footer__contact-content-phone-link,
+    .footer__location-content-link-boston,
+    .footer__location-content-link-london {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #F1CDB3;
+        padding-left: 20px;
+    }
+    
+    .footer__location-content-title {
+        padding-bottom: 38px;
+    }
+    
+    .footer__location-content-mark {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .footer__location-content-image {
+        padding-bottom: 36px;
+    }
+    
+    .footer__location-content-link-london {
+        padding-top: 3px;
+    }
+    
+    .footer__contact-content-email-image:hover,
+    .footer__contact-content-phone-image:hover,
+    .footer__location-content-image:hover {
+        transform: scale(1.1);
+    }
+    
+    .footer__image {
+        padding-top: 40px;
+    }
+    /* END FOOTER  SECTION */
