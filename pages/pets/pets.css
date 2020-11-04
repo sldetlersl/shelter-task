@@ -1,0 +1,305 @@
+  *,
+  h1,
+  a,
+  li {
+      margin: 0;
+      text-decoration: none;
+      list-style-type: none;
+  }
+  
+  .all_section {
+      display: flex;
+      justify-content: center;
+      max-width: 1280px;
+  }
+  
+  .btn__wrap-all {
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 130%;
+      letter-spacing: 0.06em;
+      color: #292929;
+      border-radius: 100px;
+      outline: none;
+      cursor: pointer;
+      border: 2px solid #F1CDB3;
+  }
+  
+  .btn__slider-ctrl {
+      width: 52px;
+      height: 52px;
+      border: 2px solid #F1CDB3;
+      box-sizing: border-box;
+      border-radius: 100px;
+      background-color: #FFFFFF;
+      background-repeat: no-repeat;
+      background-position: center;
+      outline: none;
+      /* text-align: center; */
+      margin: 0 10px;
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 115%;
+      text-align: center;
+      letter-spacing: 0.06em;
+  }
+  
+  .btn__slider-disable {
+      border: 2px solid #CDCDCD;
+      box-sizing: border-box;
+      border-radius: 100px;
+      color: #CDCDCD;
+  }
+  
+  .btn__slider-active:hover {
+      background: #FDDCC4;
+      cursor: pointer;
+  }
+  
+  .container {
+      width: 75.76vw;
+      height: 100%;
+  }
+  
+  .wrap__header {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+  }
+  
+  .header__logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 31px 5px 0 0px;
+  }
+  
+  .header__logo-title {
+      padding-bottom: 9px;
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 110%;
+      letter-spacing: 0.06em;
+      color: #545454;
+  }
+  
+  .header__logo-subtitle {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: 0.1em;
+      color: #292929;
+      margin-bottom: 30px;
+  }
+  
+  .header__navbar {
+      display: flex;
+      justify-content: end;
+      padding: 47px 0 0 481px;
+  }
+  
+  .header__navbar-items {
+      display: flex;
+      justify-content: end;
+  }
+  
+  .header__navbar-item-link {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 160%;
+      color: #545454;
+      margin: 0px 0px 0 36px;
+      padding-bottom: 4px;
+  }
+  
+  .header__link-active {
+      border-bottom: 3px #F1CDB3 solid;
+      color: #292929;
+  }
+  
+  .header__navbar-item-link:active {
+      border-bottom: 3px solid #F1CDB3;
+  }
+  
+  .header__navbar-item-link:hover {
+      color: #292929;
+  }
+  /*START PETS SECTION */
+  
+  .pets {
+      background: #F6F6F6;
+  }
+  
+  .wrap__pets {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .pets__title {
+      margin: 80px 0 60px 0;
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 35px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: #545454;
+      width: 400px;
+  }
+  
+  .pets__slider-cards-items {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0 8px;
+  }
+  
+  .pets__slider-cards-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      height: 435px;
+      background: #FAFAFA;
+      border-radius: 9px;
+  }
+  
+  .pets__slider-cards-item:hover {
+      background: #FFFFFF;
+      cursor: pointer;
+      transform: scale(1.1);
+  }
+  
+  .pets__slider-cards-item-name {
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: #545454;
+      padding: 30px 0 30px 0;
+  }
+  
+  .pets__slider-cards-item-button {
+      width: 187px;
+      height: 52px;
+      background: #FAFAFA;
+  }
+  
+  .pets__slider-cards-item-button:hover {
+      background: #FDDCC4;
+  }
+  
+  .pets__slider-navigation-control {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0 100px 0;
+  }
+  
+  .pets__slider-control-pages {
+      padding-top: 11px;
+      background: #F1CDB3;
+  }
+  /*END PETS SECTION */
+  /* START FOOTER  SECTION */
+  
+  .footer {
+      background-image: url(../../assets/image/header-main-gradient-background.png);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  .wrap__footer {
+      display: flex;
+  }
+  
+  .footer__contact-content {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 234px;
+      padding: 57px 138px 60px 6px;
+  }
+  
+  .footer__contact-content-title,
+  .footer__location-content-title {
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 35px;
+      line-height: 130%;
+      letter-spacing: 0.06em;
+      color: #FFFFFF;
+      padding-bottom: 43px;
+  }
+  
+  .footer__location-content {
+      display: flex;
+      flex-direction: column;
+      width: 302px;
+      height: 234px;
+      padding: 57px 160px 60px 0;
+  }
+  
+  .footer__contact-content-email,
+  .footer__contact-content-phone {
+      display: flex;
+      align-items: flex-start;
+      padding-bottom: 40px;
+  }
+  
+  .footer__contact-content-email-link,
+  .footer__contact-content-phone-link,
+  .footer__location-content-link-boston,
+  .footer__location-content-link-london {
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 115%;
+      letter-spacing: 0.06em;
+      color: #F1CDB3;
+      padding-left: 20px;
+  }
+  
+  .footer__location-content-title {
+      padding-bottom: 38px;
+  }
+  
+  .footer__location-content-mark {
+      display: flex;
+      align-items: flex-start;
+  }
+  
+  .footer__location-content-image {
+      padding-bottom: 36px;
+  }
+  
+  .footer__location-content-link-london {
+      padding-top: 3px;
+  }
+  
+  .footer__contact-content-email-image:hover,
+  .footer__contact-content-phone-image:hover,
+  .footer__location-content-image:hover {
+      transform: scale(1.1);
+  }
+  
+  .footer__image {
+      padding-top: 40px;
+  }
+  /* END FOOTER  SECTION */
